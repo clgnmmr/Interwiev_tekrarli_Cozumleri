@@ -25,7 +25,7 @@ public class Q01 {
 
         int sayac=0;
 
-        for (int i = 1; i <arr.length ; i++) {
+     /*   for (int i = 1; i <arr.length ; i++) {
 
                 if (arr[i-1].equalsIgnoreCase(arr[i])) {
                     sayac++;
@@ -40,34 +40,37 @@ public class Q01 {
                 }
 
 
-        }
+        }*/
 
 
 
 
-     /*     List<String> harf = new ArrayList<>();
+          List<String> harf = new ArrayList<>();
+
         for (int i = 0; i <arr.length ; i++) {
+            for (int j = 0; j <arr.length; j++) {
 
-            harf.add(arr[i]);
-
-        }
-
-      for (int i = 0; i <arr.length ; i++) {
-            for (int j = 0; j <harf.size() ; j++) {
-
-                if (arr[i].equalsIgnoreCase(harf.get(j))){
+                if (arr[i].equalsIgnoreCase(arr[j])){
                     sayac++;
-                    harf.remove(j);
+
                 }
 
             }
 
-                System.out.print(harf.get(i)+"="+(sayac)+" ");
-
+            harf.add(arr[i]+"="+(sayac));
             sayac=0;
 
-        }*/
+        }
 
+        List<String> tekrarsizharfler = new ArrayList<>();
+
+        for (int i = 0; i <harf.size() ; i++) {
+            if (!tekrarsizharfler.contains(harf.get(i))){
+                tekrarsizharfler.add(harf.get(i));
+            }
+
+        }
+        System.out.println(tekrarsizharfler);
 
 
 
