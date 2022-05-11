@@ -1,6 +1,5 @@
 package interviewQuestions1;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Q02 {/*
@@ -22,7 +21,7 @@ public class Q02 {/*
 
         String newStr = "";
         for (int i = 0; i < tekrarSayisi; i++) {
-            newStr += str.substring(0, 1) + str.substring(str.length() - 1, str.length());
+            newStr += "" + str.charAt(0) + str.charAt(str.length() - 1);
         }
         System.out.println(newStr);
 
