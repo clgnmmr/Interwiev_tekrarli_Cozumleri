@@ -44,11 +44,24 @@ public class Q01 {
 
 
 
+        System.out.println("duzeltme yapılıyor");
+
+
+
+          List<String> harf = new ArrayList<>();
+
+
+        for (int i = 0; i <arr.length ; i++) {
+            for (int j = 0; j <arr.length; j++) {
+
+
+
 
           List<String> harf = new ArrayList<>();
 
         for (int i = 0; i <arr.length ; i++) {
             for (int j = 0; j <arr.length; j++) {
+
 
                 if (arr[i].equalsIgnoreCase(arr[j])){
                     sayac++;
