@@ -43,7 +43,7 @@ public class Q01 {
         }*/
 
 
-
+        System.out.println("duzeltme yapılıyor");
 
           List<String> harf = new ArrayList<>();
 
