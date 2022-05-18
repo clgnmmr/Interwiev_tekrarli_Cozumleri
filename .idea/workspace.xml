@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d3e9eb6-ccee-4582-81b4-c2cdf8a241e9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions1/Q01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions1/Q01.java" afterDir="false" />
-    </list>
+    <list default="true" id="5d3e9eb6-ccee-4582-81b4-c2cdf8a241e9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +26,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "E:/projelerim/Interwiev_tekrarli_Cozumleri"
   }
 }]]></component>
@@ -75,7 +74,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
