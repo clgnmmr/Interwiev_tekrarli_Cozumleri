@@ -16,6 +16,21 @@ public class Q05 {
      */
     public static void main(String[] args) {
 
+        Scanner scan= new Scanner(System.in);
+        System.out.println("bir cumle giriniz");
+        String cumle=scan.nextLine();
+        System.out.println("bir harf giriniz");
+        char harf=scan.next().charAt(0);
+        int sayac=0;
+
+        for (int i = 0; i < cumle.length(); i++) {
+            if(cumle.charAt(i)==harf){
+                sayac++;
+            }
+
+        }
+        System.out.println("girdiginz cumlede \""+harf+"\" harfi "+sayac+" kere kullanilmis.");
+
 
 
 
