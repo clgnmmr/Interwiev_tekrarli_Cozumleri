@@ -1,6 +1,5 @@
 package interviewQuestions1;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Q02 {/*
@@ -20,11 +19,7 @@ public class Q02 {/*
         System.out.print("Tekrar edilecek miktar giriniz: ");
         int tekrarSayisi = scan.nextInt();
 
-        String newStr = "";
-        for (int i = 0; i < tekrarSayisi; i++) {
-            newStr += str.substring(0, 1) + str.substring(str.length() - 1, str.length());
-        }
-        System.out.println(newStr);
+        System.out.println(("" + str.charAt(0) + str.charAt(str.length() - 1)).repeat(Math.max(0, tekrarSayisi)));
 
 
     }
