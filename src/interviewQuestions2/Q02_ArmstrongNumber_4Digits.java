@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Q02_ArmstrongNumber_4Digits {
     public static void main(String[] args) {
         /*
- Armstrong sayi:herhangi bir sayinin rakamlarinin kupleri toplami o sayiyi veriyorsa sayi  Armstrong sayidir
+ Armstrong sayi:herhangi bir sayinin rakamlarinin kupleri toplami o sayiyi veriyorsa sayi
+ Armstrong sayidir
      (0, 1, 153, 370, 371, 407, 1634)
      153 = 1*1*1 + 5*5*5 + 3*3*3 = 153
      370 = 3*3*3 + 7*7*7 + 0*0*0 = 370
@@ -25,6 +26,7 @@ public class Q02_ArmstrongNumber_4Digits {
            System.out.println("bu bir armstrong sayidir ");
 
        }else System.out.println("bu bir amstrong sayi değildir ");
+
 
 
 
