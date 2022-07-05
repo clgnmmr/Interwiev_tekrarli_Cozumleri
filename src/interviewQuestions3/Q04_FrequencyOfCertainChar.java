@@ -11,8 +11,18 @@ public class Q04_FrequencyOfCertainChar {
 
      */
     public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        System.out.println("lutfen bir isim giriniz");
+        String isim = scan.nextLine();
+        System.out.println("bir karakter giriniz");
+        char karakter=scan.next().charAt(0);
 
-
+        int sayac=0;
+        for (int i = 0; i <isim.length() ; i++) {
+            if (isim.charAt(i)== karakter)
+                sayac++;
+        }
+        System.out.println("tekrar sayisi :" +sayac);
 
     }
     }
