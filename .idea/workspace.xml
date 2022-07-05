@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d3e9eb6-ccee-4582-81b4-c2cdf8a241e9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions2/Q02_ArmstrongNumber_4Digits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions2/Q02_ArmstrongNumber_4Digits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions2/Q03_FibonacciListNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions2/Q03_FibonacciListNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions2/Q04_PerfectNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions2/Q04_PerfectNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -20,8 +23,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/interviewQuestions2/Q01_ArmstrongNumber.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/interviewQuestions1/Q01.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/interviewQuestions2/JavaMathClassMethods.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/interviewQuestions2/Q01_ArmstrongNumber.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -32,10 +36,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "E:/18.05.2022/OneDrive/Masaüstü/githup projeleri/testjava2022wintertr"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kadir\Desktop\projelerim\Interwiev_tekrarli_Cozumleri\src" />
@@ -44,20 +50,7 @@
       <recent name="C:\Users\kadir\Desktop\projelerim\Interwiev_tekrarli_Cozumleri\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q03_FibonacciListNumber">
-    <configuration name="Q01_ArmstrongNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQuestions2.Q01_ArmstrongNumber" />
-      <module name="Interwiev_tekrarli_Cozumleri" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interviewQuestions2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Q04_PerfectNumber">
     <configuration name="Q02_ArmstrongNumber_4Digits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interviewQuestions2.Q02_ArmstrongNumber_4Digits" />
       <module name="Interwiev_tekrarli_Cozumleri" />
@@ -97,6 +90,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q04_PerfectNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQuestions2.Q04_PerfectNumber" />
+      <module name="Interwiev_tekrarli_Cozumleri" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewQuestions2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Q05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interviewQuestions1.Q05" />
       <module name="Interwiev_tekrarli_Cozumleri" />
@@ -112,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q03_FibonacciListNumber" />
-        <item itemvalue="Application.Q02_ArmstrongNumber_4Digits" />
-        <item itemvalue="Application.Q01_ArmstrongNumber" />
+        <item itemvalue="Application.Q04_PerfectNumber" />
         <item itemvalue="Application.Q05" />
         <item itemvalue="Application.Q04" />
+        <item itemvalue="Application.Q03_FibonacciListNumber" />
+        <item itemvalue="Application.Q02_ArmstrongNumber_4Digits" />
       </list>
     </recent_temporary>
   </component>
